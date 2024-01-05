@@ -1,0 +1,248 @@
+
+
+body{
+ 
+    padding: 0;
+    margin: 0;
+    
+      
+    
+    
+    
+    
+    background-image: linear-gradient(to right, rgb(93, 121, 233), rgb(200, 218, 255), rgb(80, 123, 251));
+    background-size: 500% 100%;
+    
+    animation-name: degrade;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate
+  }
+  
+  @keyframes degrade{
+    0%{
+      background-position-x: 0%;
+    }
+    100%{
+      background-position-x: 100%;
+      
+    }
+  }
+
+.cards{
+    height: 11rem;
+    border-radius: 3%;
+    
+}
+
+.cards1{
+    height: 9.55rem;
+    border-radius: 3%;
+}
+
+.cardscenter{
+    height: 100%;
+    display: flex;
+    align-items: 150px;
+    justify-content: center;
+    
+    
+    
+}
+
+.card:hover{
+    transform: scale(1.15);
+}
+
+.card{
+    transition: all 0.5s;
+}
+
+.c-item{
+    height: 480px;
+    position: relative;
+    margin-top: 20px;
+    
+    
+   
+
+}
+
+.c-image{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.containerback{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.imgback{
+    margin-top: 100px;
+    object-fit: cover;
+    height: 500px; 
+    width: 4000px;
+    filter: brightness(0.2);
+
+}
+
+.legenda{
+    position: absolute;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+    top: 200px;
+}
+
+.subtext{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size:x-large;
+}
+
+.buttonct{
+    position:absolute;
+    top: 400px;
+}
+
+
+
+.logoclient{
+
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+.texteclientes{
+    
+    font-size: x-large;
+    font-style: initial;
+    margin-top: 70px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.logoimg{
+    height: 300px;
+    width: 400px;
+}
+
+
+footer{
+    width: 100%;
+    min-height: 150px;
+    background-color: rgb(249, 249, 249);
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    
+}
+
+footer .boxs{
+    width: 320px;
+    min-height: 150px;
+    padding: 20px;
+}
+
+.containerlogin{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    
+}
+
+
+#msgError{
+    text-align: center;
+    color: #ff0000;
+    background-color: #f97070;
+    padding: 7px;
+    border-radius: 4px;
+    display: none;
+    position: absolute;
+    margin-top: 6px;
+}
+
+
+.containercurriculo{
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.containerform{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+.cardcontato{
+    background-color: #ffffff80;
+    padding: 100px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px hsla(0, 0%, 0%, 0.376);
+    position: relative;
+
+}
+
+.textctt{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #262164;
+    position: absolute;
+    margin-top: -75px;
+}
+
+.tabela{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.table{
+    
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px hsla(0, 0%, 0%, 0.376);
+    position: relative;
+}
+
+.nuvem{
+    width: 20px;
+    height: 25px;
+}
+
+.containerlist input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 2px;
+}
+
+.containerlist:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.containerlist input:checked ~ .checkmark {
+    background-color: #262164;
+    
+}

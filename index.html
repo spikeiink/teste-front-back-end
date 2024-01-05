@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/scr/app.css">
+    <title>Arquitetura Digital</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-4">
+        <div class="container">
+        <a class="navbar-brand align-items-center" href="/index.html"> DIGITAL <ion-icon name="logo-gitlab"></ion-icon></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-10 ms-auto ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://127.0.0.1:5500/pages/empresa.html">QUEM SOMOS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SERVIÇOS
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="http://127.0.0.1:5500/pages/automocao.html">Nuvem</a></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:5500/pages/automocao.html">Automoção</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="http://127.0.0.1:5500/pages/automocao.html">Inteligência artificial</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link "  href="/pages/login.html">ENTRAR <ion-icon name="enter-outline"></ion-icon></a>
+              </li>
+              <li>
+              <button class="btn btn-dark" onclick="sair()" >Sair</button>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+      <div class="cardscenter pt-5" >
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="cards" src="/img/Como-fazer-um-bom-planejamento-estrategico-para-2023.png"  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Planejamento Estratégico</h5>
+                  
+                  <a href="/pages/automocao.html" class="btn btn-outline-secondary">SAIBA MAIS</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="cards" src="/img/original-e9e4eaaa511a0e0d706dc3f8f26726ee.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gestão da Nuvem</h5>
+                  
+                  <a href="/pages/automocao.html" class="btn btn-outline-secondary">SAIBA MAIS</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="cards1" src="/img//unnamed_1_pCtYadt.original.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gestão em Segurança da Informação</h5>
+                  
+                  <a href="/pages/automocao.html" class="btn btn-outline-secondary">SAIBA MAIS</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div id="carouselExampleCaptions" class="carousel slide c-item">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="/img/ai.jpg" class="d-block w-100 c-image" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>A sua empresa está preparada para a revolução da IA?</h5>
+              <p>A Inteligência Artificial desempenha um papel fundamental nas organizações modernas</p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="/img/estrategia e execução.jpg" class="d-block w-100 c-image" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Estratégia & Execução em TI</h5>
+              <p>Simplificamos, potencializamos e aceleramos resultados usando a tecnologia do jeito certo.</p>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="/img/computacao-na-nuvem.jpg" class="d-block w-100 c-image" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Arquitetura de Infraestrutura e Nuvem</h5>
+              <p>Colaboramos com a empresa na estruturação de práticas de arquitetura de infraestrutura e nuvem, na medida do necessário</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <div class="containerback" >
+        <img class="imgback" src="/img/imagem fundo.png"  alt="imagem de fundo">
+        <div class="legenda " ><h1>EXCELÊNCIA TECNOLÓGICA</h1>
+        </div>
+        <div class="subtext"><p>A DIGITAL possui uma equipe de consultores especializados em soluções tecnológicas avançadas para<br>potencializar os resultados do seu negócio.</p>
+        </div>
+        <div class="buttonct">
+          <a href="/pages/contato.html" type="button" class="btn btn-outline-light">ENTRE EM CONTATO</a>
+        </div>      
+      </div>
+
+          <div class="logoclient"> 
+            <ion-icon class="logoimg" name="logo-gitlab"></ion-icon>
+          </div>
+          <div class="texteclientes">
+            <h1>O QUE DIZEM NOSSOS CLIENTES</h1>
+          </div>
+
+          <div class="container text-center pt-5">
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="/img/twitch.png" class="card-img-top" alt="card twitch">
+                  <div class="card-body">
+                    <p class="card-text">“A parceria com o time da DIGITAL nos proporcionou o estado da arte da tecnologia para nossos serviços de avaliação digital.”</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="/img/tramontina.jpg" class="card-img-top" alt="card tramontina">
+                  <div class="card-body">
+                    <p class="card-text">
+                      “O trabalho da DIGITAL foi um divisor de águas, que elevou ainda mais o nível de engajamento do nosso time, aumentando a produtividade, assim como a qualidade das entregas.”</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <img src="/img/shopee.jpg" class="card-img-top" alt="card shopee">
+                  <div class="card-body">
+                    <p class="card-text">
+                      “A DIGITAL provê combinação de excelente visão de negócios e domínio sólido de tecnologia. Foi e continua sendo uma ajuda de extrema relevância na nossa jornada de transformação digital.”</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+      <footer>
+        <div class="boxs">
+          <h2>CONTATOS</h2>
+          <ul>
+            <li><a href="https://www.instagram.com/spikeiink/"><ion-icon style="height: 30px; width: 40px;" name="logo-instagram"></ion-icon></a></li>
+            <li><a href="https://www.linkedin.com/in/spikee/"><ion-icon style="height: 30px; width: 40px;" name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="https://github.com/spikeiink"><ion-icon style="height: 30px; width: 40px;" name="logo-github"></ion-icon></a></li>
+          </ul>
+        
+        </div>
+       </footer>
+        
+      
+
+
+
+
+    
+      <script src="validação.js" ></script>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
